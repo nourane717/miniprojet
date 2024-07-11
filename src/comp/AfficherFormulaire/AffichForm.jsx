@@ -10,6 +10,7 @@ const AffichForm = ({ formData }) => {
         <p>Email: {formData.email}</p>
         <p>Niveau d'Étude: {formData.niveauEtude ? formData.niveauEtude.label : ''}</p>
       </div>
+      
     );
   };
   

@@ -96,7 +96,10 @@ body {
   }
 
   .react-select__placeholder {
-    padding: 0 !important; 
+    padding: 0 !important;
+    font-family:  'Arial'; 
+    font-size: small;
+    margin-top: 8px;
   }
 
   .react-select__indicators {

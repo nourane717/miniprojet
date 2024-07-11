@@ -58,8 +58,9 @@ const RemplirForm = () => {
         singleValue: (provided) => ({
           ...provided,
           color: '#ffb777', // Couleur rouge de la police pour l'option choisie
-          fontWeight: 'bold', // Texte en gras pour l'option choisie
-          fontStyle: 'italic', // Texte en italique pour l'option choisie
+          //fontWeight: 'bold', // Texte en gras pour l'option choisie
+         // fontStyle: '', // Texte en italique pour l'option choisie
+         marginTop:'10px'
         }),
       };
      
