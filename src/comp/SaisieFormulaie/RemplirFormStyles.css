@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #66afe9;
+    outline: none;
+  }
+  
+  button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container,
+  .react-datepicker__input-container input {
+    width: 100%;
+  }
+  
+  .css-yk16xz-control {
+    border-color: #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .css-yk16xz-control:hover {
+    border-color: #66afe9;
+  }
+  .react-select__value-container {
+    padding: 0 !important; 
+    margin-top: 0%;
+    border-top: 0cm;
+    position: relative;
+    
+  }
+  .react-select__control{
+    padding: 0 !important; 
+    height: 5px;
+    bottom: 0px;
+  }
+
+  .react-select__placeholder {
+    padding: 0 !important; 
+  }
+
+  .react-select__indicators {
+ 
+   position: relative;
+   height: 35px;
+  }
+  .react-select__indicator-separator{
+    height:17px;
+     position: relative;
+    }
+    .react-select__dropdown-indicator{
+       margin-top: 10px;
+         position: relative;
+        }
+
+
+  .react-select__clear-indicator {
+    margin-top: 10px;
+      position: relative;
+     }
